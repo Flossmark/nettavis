@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+{
+padding:10px;
+    margin:10px;
+}
+    body
+    {
+    background-image:url(avisbakgrunn.jpg);
+    background-size: cover;
+    background-position:center;
+    }
+            {
+                background-color:gainsboro;
+                text-align:center;
+        
+            }
+            h1{
+                color:black;
+            }
+        
+
+           
+            
+            .kol-1{grid-column:span 1;}
+            .kol-2{grid-column:span 2;}
+            .kol-3{grid-column:span 3;}
+            .kol-4{grid-column:span 4;}
+            .kol-5{grid-column:span 5;}
+            .kol-6{grid-column:span 6;}
+            .kol-7{grid-column:span 7;}
+            .kol-8{grid-column:span 8;}
+            .kol-9{grid-column:span 9;}
+            .kol-10{grid-column:span 10;}
+            .kol-11{grid-column:span 11;}
+            .kol-12{grid-column:span 12;}
+            
+            nav{
+                
+                background-color:gray   ;
+                display:grid;
+                grid-template-columns:auto repeat(6,1fr);
+                align-items:center;
+                margin-bottom:10px;
+            
+            }
+            nav a{
+                padding-left:30px;
+                padding-right:30px;
+                color:white;
+                
+            }
+            nav .hjem{
+                background-color:orangered;
+                font-weight:700;
+                font-size:32px;
+                padding:10px;
+            }
+.bruhmoment{
+    display:grid;
+                grid-template-columns:auto repeat(6,1fr,2fr);
+   
+}
+          
+.hovedsiden{
+      display:grid;
+                grid-template-columns:auto repeat(6,1fr);
+                
+    
+}
+img{
+    max-height:1200px;
+    max-width:1055px;
+    padding:10px;   
+}
+.database{
+    display:grid;
+                grid-template-columns:auto repeat(6,1fr,2fr);
+
+}
+.risikopanett{
+    display:grid;
+                grid-template-columns:auto repeat(6,1fr,2fr);
+
+}
+
+    
+}
+.straffbareforholdpanett{
+     display:grid;
+                grid-template-columns:auto repeat(6,1fr,2fr);
+    
+}
+        </style>
+
